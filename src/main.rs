@@ -1,3 +1,5 @@
+use trunk_bin_panic::component::TestComponent;  // trunk_bin_panic is module name
+
 fn main() {
-    println!("Hello, world!");
+    yew::Renderer::<TestComponent>::new().render();
 }
